@@ -1,0 +1,33 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Xavier"
+      },
+      "creation_time": "2023-06-16T22:25:07.136Z",
+      "description": {
+        "content": "Yo como cliente quiero un listado de los personajes para conocer los actores del problema",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Detalle Personaje"
+    },
+    {
+      "assignedTo": {
+        "name": "Xavier"
+      },
+      "creation_time": "2023-06-16T22:26:46.649Z",
+      "description": {
+        "content": "Yo como cliente quiero ver la solución del problema para que la caperucita roja no se coma las uvas y el lobo no se la coma a ella.",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Solucion Problema"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}
