@@ -56,26 +56,13 @@
 
 ## Sprint 1
 
-- Se resuelve la historia de usuario **detalle personaje**
+- Se resuelve la historia de usuario **detalle personaje** y la historia de usuario **solucion problema**
 
 ### **Tiempo**
 
-- 30min
+- 60min
 
 ### **Artefacto**
 
-- Código fuente del menú
-
-## Sprint 2
-
-- Se resuelve la historia de usuario **solucion problema**
-
-### **Tiempo**
-
-- 45 minutos
-
-### **Artefacto**
-
-- Código fuente de todo el programa
-
-### UML
+- Código fuente del juego
+- Resultado de las pruebas de funcionalidad

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Hp4dVfdLVx2DITK1ITba" name="Página-1">
-        <mxGraphModel dx="660" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3000" dy="2499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -110,7 +110,7 @@
                 <mxCell id="291" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="10" vertex="1">
                     <mxGeometry x="200" y="40.19999999999999" width="94" height="49.6" as="geometry"/>
                 </mxCell>
-                <mxCell id="292" value="Pruebas de aceptación" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10" vertex="1">
+                <mxCell id="292" value="Pruebas de funcionalidad" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10" vertex="1">
                     <mxGeometry x="217" y="49.99999999999994" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="293" style="edgeStyle=none;html=1;strokeColor=default;strokeWidth=1;endArrow=classic;endFill=1;" parent="10" edge="1">
@@ -202,34 +202,10 @@
                         <mxRectangle width="430" height="133" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="288" style="edgeStyle=none;html=1;strokeColor=default;strokeWidth=1;endArrow=classic;endFill=1;" parent="21" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="250" y="72"/>
-                        </Array>
-                        <mxPoint x="250" y="-43" as="sourcePoint"/>
-                        <mxPoint x="460" y="72" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="22" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="18" vertex="1">
                     <mxGeometry x="1590" width="630" height="133" as="geometry">
                         <mxRectangle width="630" height="133" as="alternateBounds"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="286" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="22" vertex="1">
-                    <mxGeometry x="40" y="41.69999999999999" width="94" height="49.6" as="geometry"/>
-                </mxCell>
-                <mxCell id="287" value="Pruebas unitaria" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
-                    <mxGeometry x="57" y="51.49999999999994" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="289" style="edgeStyle=none;html=1;strokeColor=default;strokeWidth=1;endArrow=classic;endFill=1;" parent="22" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="66.12068965517233" as="sourcePoint"/>
-                        <mxPoint x="210" y="65.63793103448279" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="290" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;" parent="22" vertex="1">
-                    <mxGeometry x="240" y="46.5" width="30" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Coach" style="shape=tableRow;horizontal=0;startSize=40;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="2" vertex="1">
                     <mxGeometry y="586" width="2220" height="133" as="geometry"/>
@@ -281,10 +257,13 @@
                         <mxPoint x="1660" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="295" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                <mxCell id="295" value="" style="endArrow=classic;html=1;exitX=1.024;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="281">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="2240" y="360" as="sourcePoint"/>
                         <mxPoint x="2240" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2240" y="266"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
             </root>

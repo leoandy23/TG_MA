@@ -1,5 +1,8 @@
 {
-  "todo": [
+  "todo": [],
+  "in-progress": [],
+  "testing": [],
+  "done": [
     {
       "assignedTo": {
         "name": "Xavier"
@@ -26,8 +29,5 @@
       "references": [],
       "title": "Solucion Problema"
     }
-  ],
-  "in-progress": [],
-  "testing": [],
-  "done": []
+  ]
 }
