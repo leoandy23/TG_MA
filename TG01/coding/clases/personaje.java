@@ -1,10 +1,10 @@
 package clases;
 
-public class personaje {
+public class Personaje {
   String nombre;
   
 
-  public personaje(String nombre) {
+  public Personaje(String nombre) {
     this.nombre = nombre;
   }
 

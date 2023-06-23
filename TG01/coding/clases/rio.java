@@ -2,30 +2,30 @@ package clases;
 
 import java.util.ArrayList;
 
-public class rio {
-  public ArrayList<personaje> ladoInicial;
-  public ArrayList<personaje> ladoFinal;
+public class Rio {
+  public ArrayList<Personaje> ladoInicial;
+  public ArrayList<Personaje> ladoFinal;
 
-  public rio() {
-    this.ladoInicial = new ArrayList<personaje>();
-    this.ladoFinal = new ArrayList<personaje>();
+  public Rio() {
+    this.ladoInicial = new ArrayList<Personaje>();
+    this.ladoFinal = new ArrayList<Personaje>();
   }
 
-  public void addPersonajeInicial(personaje p) {
+  public void addPersonajeInicial(Personaje p) {
     this.ladoInicial.add(p);
   }
 
-  public void moverPersonajeAFinal(personaje p) {
+  public void moverPersonajeAFinal(Personaje p) {
     this.ladoInicial.remove(p);
     this.ladoFinal.add(p);
   }
 
-  public void moverPersonajeAInicio(personaje p) {
+  public void moverPersonajeAInicio(Personaje p) {
     this.ladoFinal.remove(p);
     this.ladoInicial.add(p);
   }
 
-  public boolean terminarPartida(personaje caperucita,personaje lobo,personaje uvas,personaje observador) {
+  public boolean terminarPartida(Personaje caperucita,Personaje lobo,Personaje uvas,Personaje observador) {
     boolean gameover = false;
 
     if ((this.ladoInicial.contains(lobo) & this.ladoInicial.contains(caperucita) & !this.ladoInicial.contains(observador))
@@ -55,12 +55,12 @@ public class rio {
   public String toString() {
     String rio = "------------------------------------";
     rio += "\nLado inicial: ";
-    for (personaje p : this.ladoInicial) {
+    for (Personaje p : this.ladoInicial) {
       rio += p.getNombre() + " ";
     }
     rio += "\n";
     rio += "Lado final: ";
-    for (personaje p : this.ladoFinal) {
+    for (Personaje p : this.ladoFinal) {
       rio += p.getNombre() + " ";
     }
     rio += "\n------------------------------------";
