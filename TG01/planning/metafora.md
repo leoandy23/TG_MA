@@ -1,0 +1,9 @@
+# Metáfora
+
+Nuestro sistema representa un escenario en el cual hay un río que separa dos orillas. En una orilla se encuentran los personajes observador, lobo, uvas y caperucita, mientras que en la otra orilla se busca llevar a todos los personajes de forma segura. El objetivo principal es garantizar que el lobo no se coma a la caperucita y que la caperucita no se coma las uvas, con el observador como encargado de controlar y supervisar estas interacciones.
+
+El bote es el recurso disponible para cruzar el río, pero solo puede llevar a dos personajes a la vez. Además, se establece la regla de que el observador siempre debe estar presente en el bote para evitar situaciones de riesgo.
+
+Para lograr el cruce seguro, se establecen una serie de acciones específicas que los personajes deben realizar. El observador lleva a la caperucita al otro lado del río y luego regresa solo a la orilla inicial. Posteriormente, el observador lleva las uvas al otro lado mientras aún mantiene la caperucita en la orilla inicial. A continuación, el observador deja las uvas y regresa con la caperucita a la orilla inicial. Luego, el observador lleva al lobo al otro lado del río y regresa solo nuevamente. Por último, el observador lleva a la caperucita al otro lado del río y, de esta manera, todos los personajes han cruzado de forma segura.
+
+En este sistema, el observador tiene un papel crucial, asegurándose de que se respeten las restricciones y evitando situaciones de peligro. El bote actúa como un recurso compartido y limitado que permite el cruce de los personajes. Los demás personajes deben seguir las indicaciones y restricciones establecidas por el observador para garantizar el éxito del cruce.
